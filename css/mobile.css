@@ -1,0 +1,48 @@
+/* // // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  .nav-bar,
+  .about,
+  .job-info,
+  .column3,
+  .certificate-images,
+  .project,
+  .cer1,
+  .cer2,
+  .cer3 {
+    display: block;
+  }
+
+  /* Navbar */
+  .nav1,
+  .nav2,
+  .nav3,
+  .nav4 {
+    padding: 12px;
+    margin-left: 16px;
+    border-style: none;
+  }
+
+  /* Certificate */
+  .certificate-images img {
+    width: 100%;
+  }
+  /* Project */
+  .tongquan {
+    display: block;
+    line-height: 2.5;
+  }
+
+  .duan1,
+  .duan2,
+  .duan3 {
+    margin: 48px auto;
+  }
+
+  /* Footer */
+  footer i {
+    font-size: 150%;
+  }
+  .social-link {
+    display: none;
+  }
+}
